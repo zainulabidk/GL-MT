@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:5000/api/auth/users";
+const API_URL = "https://gl-mt-server.onrender.com/api/users";
+
+// const API_URL = "http://localhost:5000/api/auth/users";
 
 const fetchUsers = async (token) => {
   if (!token) throw new Error("No token provided");

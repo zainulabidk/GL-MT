@@ -1,5 +1,4 @@
 import React from "react";
-import './app.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import About from "./pages/AboutPage";
@@ -10,7 +9,7 @@ import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
-
+import './app.css';
 
 function App() {
   return (

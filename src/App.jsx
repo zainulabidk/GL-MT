@@ -9,7 +9,7 @@ import UserDashboard from "./pages/UserDashboard";
 import AdminDashboard from "./pages/AdminDashboard";
 import ProtectedRoute from "./components/ProtectedRoute";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
-import './app.css';
+import "./styles/app.css"; 
 
 function App() {
   return (
